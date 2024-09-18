@@ -1,8 +1,8 @@
 from django.urls import path
-from . import views
+from .views import trigger_signal_Q1, trigger_signal_Q2, trigger_signal_with_transaction
 
 urlpatterns = [
-    path('create_model/', views.create_model, name='create_model'),
-    path('trigger_request_finished/', views.trigger_request_finished, name='trigger_request_finished'),
-    path('create_model_with_related/', views.create_model_with_related, name='create_model_with_related'),
+    path('trigger-signal/', trigger_signal_Q1, name='trigger_signal'),
+    path('trigger-signal-thread/', trigger_signal_Q2, name='trigger_signal_thread'),
+    path('trigger-signal-transaction/', trigger_signal_with_transaction, name='trigger_signal_with_transaction'),
 ]
