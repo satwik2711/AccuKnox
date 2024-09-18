@@ -1,6 +1,6 @@
 # Django Trainee Assignment
 
-This repository contains the solutions for a Django trainee assignment. The solutions include the implementation of Django signals and Python custom class logic, organized into API routes and files as described below.
+This repository contains the solutions for a Django trainee assignment for Accuknox.
 
 ### Solutions
 The detailed solutions along with explanations and code snippets can be found in **Assignment.pdf**.
